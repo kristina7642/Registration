@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+  body{
+    font-family: Arial, sans-serif;
+    background-color: darkgrey;
+    margin: 100px;
+    padding: 0px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*выравнивание элементов по центру*/
+    justify-content: center;/*Центрилизация элементов вдоль главной оси*/
+    height: 80vh;
+  }
+  header{
+    margin-bottom: 1px;
+  }
+  h1 {
+    padding-bottom: 20px;
+    font-size: 55px; 
+    color: #333; /* Основной цвет текста */
+    text-shadow: 
+        1px 1px 0 #fff, /* Белая тень справа и вниз */
+        2px 2px 0 #ccc, /* Светло-серая тень */
+        3px 3px 0 #bbb; /* Более темная серая тень */
+}
+.container{
+    background-color: rgb(250, 250, 250);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 50px 50px rgb(5, 5, 5, 0.5);
+    width: 580px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label{
+  display: inline-block;
+  margin-bottom: 5px;
+    color: #333; 
+    font-size: 25px;
+    text-shadow: 
+        1px 1px 0 #fff, 
+        2px 2px 0 #ccc, 
+        1px 1px 0 #bbb;
+}
+input {
+  display: inline;
+  width: 35%; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+}
+.gender-selection{
+padding-right: 15vw;
+}
+p {
+    color: #1d1c1c; 
+    font-size: 20px;
+    text-shadow: 
+        1px 1px 0 #fff, 
+        2px 2px 0 #cfcaca, 
+        1px 1px 0 #bbb;
+}
+
+button{
+  width: 100%; 
+    padding: 8px;
+    margin: 15px;
+    background-color: #333; 
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+button:hover {
+  background-color: #0f0f0f; 
+}
+select{
+  display: inline;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
