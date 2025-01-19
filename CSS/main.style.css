@@ -16,7 +16,7 @@
     flex-direction: column;
     align-items: center; /*выравнивание элементов по центру*/
     justify-content: center;/*Центрилизация элементов вдоль главной оси*/
-    height: 80vh;
+    height: 110vh;
   }
   header{
     margin-bottom: 1px;
@@ -52,7 +52,6 @@ label{
 }
 input {
   display: inline;
-  width: 35%; 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px; 
